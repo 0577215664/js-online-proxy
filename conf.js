@@ -4,21 +4,6 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'aliyun-hk': {
-      label: '演示服务-香港节点',
-      lines: [
-        // 多条线路，负载均衡系统会从其中选一条
-        'node-aliyun-hk-0.etherdream.com:8443',
-        'node-aliyun-hk-1.etherdream.com:8443',
-        'node-aliyun-hk-2.etherdream.com:8443',
-      ]
-    },
-    'aliyun-sg': {
-      label: '演示服务-新加坡节点',
-      lines: [
-        'node-aliyun-sg.etherdream.com:8443'
-      ]
-    },
     'mysite': {
       label: '当前站点',
       lines: [
@@ -40,7 +25,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'aliyun-hk',
+  node_default: 'mysite',
 
   /**
    * 加速节点
