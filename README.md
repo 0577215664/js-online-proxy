@@ -1,3 +1,0 @@
-# jsproxy-server
-
-👨🏻‍💻 Test project.
