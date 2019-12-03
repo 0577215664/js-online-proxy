@@ -8,6 +8,8 @@
   <style>
     body {
       padding: 0 0.5em;
+      max-width: 1034px;
+      margin: 0 auto;
     }
     .box {
       margin-top: 1em;
@@ -17,6 +19,7 @@
       height: 2em;
       text-indent: 0.5em;
       padding: 0.25em 0;
+      font-size: 15px;
     }
     #btnGo {
       width: 100%;
@@ -29,14 +32,17 @@
 </head>
 <body>
   <div class="box">
-    <input id="txtURL" type="text" placeholder="请输入需要代理的网址" autofocus>
+    <input id="txtURL" type="text" placeholder="请输入网址，点击 Go 开始代理访问" autofocus>
   </div>
   <div class="box">
     <button id="btnGo">Go</button>
   </div>
-  <div class="box">
+  <!-- <div class="box">
     <span>切换线路:</span>
     <select id="selNode"></select>
+  </div> -->
+  <div class="box">
+    <span>收藏站点</span>
   </div>
   <div class="box" id="list">
   </div>
