@@ -36,7 +36,7 @@ jsproxy_config({
    * 静态资源 CDN 地址
    * 用于加速 `assets` 目录中的资源访问
    */
-  assets_cdn: 'https://cdn.jsdelivr.net/gh/ifyour/js-online-proxy@master/assets_v1/',
+  assets_cdn: 'https://cdn.jsdelivr.net/gh/ifyour/js-online-proxy@master/assets_v2/',
 
   // 本地测试时打开，否则访问的是线上的
   // assets_cdn: 'assets/',
